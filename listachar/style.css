@@ -1,0 +1,54 @@
+.header{
+    font-size: 6vw;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    opacity: .8;
+}
+#api{
+    display: none;
+}
+.container{
+    margin-top: 6em;
+}
+ul{ 
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    background: white;  
+}
+ul div{
+    width: 230px;
+    height: 150px;
+}
+#show{
+    position: fixed;
+    top: 9em;
+    right: 35px;
+}
+body{
+    background: rgb(230 229 229) !important;
+}
+.container{
+    padding-top: 50px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.listapersonagens .bloco{
+    cursor: pointer;
+}
+.bloco{
+    padding-top: 1.5vw;
+    padding-left: 1.5vw;
+    box-shadow: 3px 3px 5px #ababab;
+    border-radius: 6px;
+}
